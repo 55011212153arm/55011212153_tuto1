@@ -4,4 +4,4 @@ import UIKit
 
 var str = "Hello, playground"
 let s = 33333
-var j =9
+var j=6
