@@ -3,5 +3,7 @@
 import UIKit
 
 var str = "Hello, playground"
-let s = 33333
-var j=6
+let tutorialTeam = 56
+let editorialTeam = 23
+var totalTeam = tutorialTeam + editorialTeam
+totalTeam+=1
