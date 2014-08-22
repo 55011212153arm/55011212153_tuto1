@@ -30,11 +30,28 @@ var shoppingList = ["Eggs","Milk"]
 println("The shopping list contains \(shoppingList.count) items.")
 shoppingList.append("Flour")
 shoppingList += "Baking Powder"
-shoppingList += ["Choccolate Spread","Cheess","Butter"]
+shoppingList += ["Chocolate Spread","Cheess","Butter"]
 var firstItem = shoppingList[0]
 shoppingList[0] = "Six Eggs"
 //shoppingList[0...3] = ["Bananas","Apples"]
 shoppingList
+
+shoppingList += ["Baking Powder"]
+//shoppingList now contains 4 items
+shoppingList += ["Chocolate Spread","Cheess","Butter"]
+//shoppingList now contains 7 items
+shoppingList.insert("Maple syrup", atIndex: 0)
+//shoppingList now contains 7 items
+//"Maple syrub" is now the first item in the list
+shoppingList.append("Flour")
+//shoppingList now contains 3 items,and someone is making pancakes
+shoppingList += ["Baking Powder"]
+firstItem = shoppingList[0]
+//first item is qual to "Eggs"
+shoppingList[4...6] = ["Banana","Apple"]
+//shoppingList now contains 6 items
+shoppingList
+
 
 
 
