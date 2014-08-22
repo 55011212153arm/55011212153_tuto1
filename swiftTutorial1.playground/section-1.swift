@@ -66,6 +66,20 @@ println("the airport dictionary is not empty.")
 println("the airport dictionary contains \(airport.count) items.")
 //print "the airport dictionary contains 2 items."
 
+airport["LHR"] = "London"
+//the airport dictionary now contains 3 items.
+
+airport["LHR"] = "London 555"
+//change value
+
+airport["LHR"]=nil
+//LHR has now been remove from the airport dictionary
+
+airport
+
+if let removeValue = airport.removeValueForKey("LHR"){
+println("5678  remove \(removeValue).")
+}
 
 
 
