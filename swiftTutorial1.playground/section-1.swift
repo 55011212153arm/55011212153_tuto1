@@ -77,8 +77,10 @@ airport["LHR"]=nil
 
 airport
 
-if let removeValue = airport.removeValueForKey("LHR"){
-println("5678  remove \(removeValue).")
+if let removedValue = airport.removeValueForKey("LHR"){
+println("5678  remove \(removedValue) .")
+}else
+{
 }
 
 
