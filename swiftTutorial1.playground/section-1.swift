@@ -51,7 +51,7 @@ firstItem = shoppingList[0]
 shoppingList[4...6] = ["Banana","Apple"]
 //shoppingList now contains 6 items
 shoppingList
-
+//
 
 
 
