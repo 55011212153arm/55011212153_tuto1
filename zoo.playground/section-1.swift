@@ -5,3 +5,5 @@ import UIKit
 var str = "Hello, playground"
 
 str = "Hello Zoo"
+
+var animal = ["Tiger":"Milk","Lion":"Banana"]
