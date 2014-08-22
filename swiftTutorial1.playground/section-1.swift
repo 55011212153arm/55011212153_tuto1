@@ -52,6 +52,22 @@ shoppingList[4...6] = ["Banana","Apple"]
 //shoppingList now contains 6 items
 shoppingList
 
+let array: Array<Int> = [1,2,3,4]
+let dictionary: Dictionary<String,Int> = ["dog":1,"elephant":2]
+//let dictionary = ["dog":1,"elephant":2]
+
+var airport:[String:String] = ["TYO":"Tokyo","DUB":"Dublin"]
+if airport.isEmpty{
+println("The airport dictionary is empty.")
+}else{
+println("the airport dictionary is not empty.")
+}
+
+println("the airport dictionary contains \(airport.count) items.")
+//print "the airport dictionary contains 2 items."
+
+
+
 
 
 
